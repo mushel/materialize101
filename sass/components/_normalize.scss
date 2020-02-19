@@ -145,15 +145,24 @@ samp {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
   background: color("blue-grey", "darken-2");
-  border-radius: .2em;
-  padding: .4em;
+  border-bottom-left-radius: .2em;
+  border-bottom-right-radius: .2em;
+  padding: .2em .4em;
   display: block;
   margin-bottom: .5em;
 }
 p code {
   display: inline;
+  border-radius: .2em;
 }
-
+.code-head {
+  font-family: monospace, monospace; 
+  background: color("deep-purple", "darken-4");
+  display: block;
+  border-top-left-radius: .2em;
+  border-top-right-radius: .2em;
+  padding: .2em .4em;
+}
 /**
  * Add the correct font style in Android 4.3-.
  */
